@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B08B3929D5B6FA002434D4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3529D5B6FA002434D4 /* 1.png */; };
+		64B08B3A29D5B6FA002434D4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3529D5B6FA002434D4 /* 1.png */; };
+		64B08B3B29D5B6FA002434D4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3629D5B6FA002434D4 /* 4.png */; };
+		64B08B3C29D5B6FA002434D4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3629D5B6FA002434D4 /* 4.png */; };
+		64B08B3D29D5B6FA002434D4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3729D5B6FA002434D4 /* 3.png */; };
+		64B08B3E29D5B6FA002434D4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3729D5B6FA002434D4 /* 3.png */; };
+		64B08B3F29D5B6FA002434D4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3829D5B6FA002434D4 /* 2.png */; };
+		64B08B4029D5B6FA002434D4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B3829D5B6FA002434D4 /* 2.png */; };
 		64D790DD2796F83F0082CF83 /* NotesWatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 64D790DC2796F83F0082CF83 /* NotesWatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		64D790E22796F8400082CF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D790E12796F8400082CF83 /* Assets.xcassets */; };
 		64D790E82796F8400082CF83 /* NotesWatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64D790E72796F8400082CF83 /* NotesWatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -66,6 +74,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		64B08B3529D5B6FA002434D4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		64B08B3629D5B6FA002434D4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		64B08B3729D5B6FA002434D4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		64B08B3829D5B6FA002434D4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		64B08B4129D5B752002434D4 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		64D790D82796F83F0082CF83 /* NotesWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D790DC2796F83F0082CF83 /* NotesWatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotesWatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D790E12796F8400082CF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,9 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B08B3429D5B6EA002434D4 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				64B08B3529D5B6FA002434D4 /* 1.png */,
+				64B08B3829D5B6FA002434D4 /* 2.png */,
+				64B08B3729D5B6FA002434D4 /* 3.png */,
+				64B08B3629D5B6FA002434D4 /* 4.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		64D790D12796F83F0082CF83 = {
 			isa = PBXGroup;
 			children = (
+				64B08B4129D5B752002434D4 /* readme.md */,
+				64B08B3429D5B6EA002434D4 /* Documentation */,
 				64D790E02796F83F0082CF83 /* NotesWatchOS WatchKit App */,
 				64D790EB2796F8400082CF83 /* NotesWatchOS WatchKit Extension */,
 				64D790D92796F83F0082CF83 /* Products */,
@@ -263,6 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B08B3B29D5B6FA002434D4 /* 4.png in Resources */,
+				64B08B3D29D5B6FA002434D4 /* 3.png in Resources */,
+				64B08B3929D5B6FA002434D4 /* 1.png in Resources */,
+				64B08B3F29D5B6FA002434D4 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D790E22796F8400082CF83 /* Assets.xcassets in Resources */,
+				64B08B3E29D5B6FA002434D4 /* 3.png in Resources */,
+				64B08B3C29D5B6FA002434D4 /* 4.png in Resources */,
+				64B08B3A29D5B6FA002434D4 /* 1.png in Resources */,
+				64B08B4029D5B6FA002434D4 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
